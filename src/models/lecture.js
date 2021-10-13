@@ -62,11 +62,7 @@ const lecture_2A = {
     },
     {
       name: '胡元輝',
-      exps: [
-        '中正大學傳播學系教授',
-        '台灣事實查核教育基金會董事長',
-        '',
-      ],
+      exps: ['中正大學傳播學系教授', '台灣事實查核教育基金會董事長', ''],
       img: './images/lecture/A/2A/hyh.jpg',
     },
   ],
@@ -254,3 +250,13 @@ const lecture_4B = {
 
 export const lecture_A = [lecture_1A, lecture_2A, lecture_3A, lecture_4A];
 export const lecture_B = [lecture_1B, lecture_2B, lecture_3B, lecture_4B];
+export const lecture = [
+  lecture_1A,
+  lecture_1B,
+  lecture_2A,
+  lecture_2B,
+  lecture_3A,
+  lecture_3B,
+  lecture_4A,
+  lecture_4B,
+];

@@ -5,7 +5,7 @@ import Agenda from './components/Agenda';
 
 // import moduleName from './style';
 
-import { lecture_A, lecture_B } from './models/lecture';
+import { lecture } from './models/lecture';
 
 import './App.css';
 
@@ -23,17 +23,7 @@ const App = () => {
         </section>
         <section>
           <h2>講師介紹</h2>
-          {lecture_A.map(({ title, speakers }) => (
-            <div className='lecture-intro' key={title}>
-              <h3>{title}</h3>
-              <div className='speakers'>
-                {speakers.map(({ name, exps, img }) => (
-                  <Speaker name={name} exps={exps} img={img} key={name} />
-                ))}
-              </div>
-            </div>
-          ))}
-          {lecture_B.map(({ title, speakers }) => (
+          {lecture.map(({ title, speakers }) => (
             <div className='lecture-intro' key={title}>
               <h3>{title}</h3>
               <div className='speakers'>
