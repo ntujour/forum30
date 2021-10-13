@@ -2,13 +2,34 @@
   text-align: center;
 }
 
+h2 {
+  color: #145c8d;
+  text-align: left;
+  font-size: 32px;
+}
+
+h3 {
+  color: #145c8d;
+  text-align: left;
+  font-size: 26px;
+  margin-bottom: 32px;
+}
+
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 84px auto;
+}
+
+section {
+  margin-bottom: 72px;
+}
+
+.lecture-intro {
+  margin-bottom: 48px;
 }
 
 .speakers {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;  
+  align-items: flex-start;
 }

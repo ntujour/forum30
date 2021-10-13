@@ -1,10 +1,11 @@
 import Header from './components/Header';
 import Speaker from './components/Speaker';
+import Agenda from './components/Agenda';
 // import Footer from './components/Footer/Footer';
 
 // import moduleName from './style';
 
-import { lecture_1A } from './models/lecture';
+import { lecture_A, lecture_B } from './models/lecture';
 
 import './App.css';
 
@@ -13,19 +14,37 @@ const App = () => {
     <div className='App'>
       <Header></Header>
       <div className='container'>
-        <section>
+        {/* <section>
           <h2>最新消息</h2>
+        </section> */}
+        <section>
           <h2>研討議程</h2>
-          <h2>講者介紹</h2>
-          <div className='speakers'>
-            {lecture_1A.map(({ name, exps, img }) => (
-              <Speaker name={name} exps={exps} img={img} />
-            ))}
-          </div>
+          <Agenda></Agenda>
+        </section>
+        <section>
+          <h2>講師介紹</h2>
+          {lecture_A.map(({ title, speakers }) => (
+            <div className='lecture-intro' key={title}>
+              <h3>{title}</h3>
+              <div className='speakers'>
+                {speakers.map(({ name, exps, img }) => (
+                  <Speaker name={name} exps={exps} img={img} key={name} />
+                ))}
+              </div>
+            </div>
+          ))}
+          {lecture_B.map(({ title, speakers }) => (
+            <div className='lecture-intro' key={title}>
+              <h3>{title}</h3>
+              <div className='speakers'>
+                {speakers.map(({ name, exps, img }) => (
+                  <Speaker name={name} exps={exps} img={img} key={name} />
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
       </div>
-
-      {/* <img src='./images/lecture/A/1A/hcl.png' alt='' /> */}
       {/* <Footer></Footer> */}
     </div>
   );

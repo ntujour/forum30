@@ -5,11 +5,12 @@ const SpeakerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin-right: 24px;
 `;
 
 const SpeakerImage = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center center;
@@ -21,7 +22,7 @@ const SpeakerName = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 15px 0;
 `;
 
 const SpeakerExps = styled.div`
@@ -32,7 +33,7 @@ const SpeakerExps = styled.div`
 `;
 
 const ExpItems = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   margin-bottom: 5px;
 `;
