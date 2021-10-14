@@ -9,8 +9,8 @@ const SpeakerWrapper = styled.div`
 `;
 
 const SpeakerImage = styled.img`
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center center;
