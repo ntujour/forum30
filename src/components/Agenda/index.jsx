@@ -106,7 +106,7 @@ const Agenda = () => {
             <p className='lecture-title'>3B 國際新聞與在地觀點</p>
             <p>主持人：劉好迪副教授 Adrian Rauchfleisch </p>
             <p>與談人：</p>
-            <p>Chris Horton ／Bloomberg 特約記者</p>
+            <p>Cédric Alviani ／無國界記者組織東亞辦公處長(RSF)</p>
             <p>William Yang ／德國之聲特派記者</p>
             <p>Andrew Ryan ／Taiwan Plus 新聞部副主任</p>
             <p>Natalie Tso ／Rti 中央廣播電台英語組召集人 </p>

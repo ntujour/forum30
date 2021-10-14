@@ -14,20 +14,26 @@ const lecture_1A = {
       exps: ['臺大新聞研究所教授兼所長', '前國家通訊傳播委員會委員', ''],
       img: './images/lecture/A/1A/hcl.png',
     },
-    {
-      name: '郭冠群',
-      exps: ['中嘉集團董事長', '達勝資本創辦人暨董事長', ''],
-      img: './images/lecture/A/1A/ggk.png',
-    },
+
     {
       name: '鄭麗君',
       exps: ['文化總會副理事長', '前文化部長', ''],
       img: './images/lecture/A/1A/zlj.jpg',
     },
     {
+      name: '郭冠群',
+      exps: ['中嘉集團董事長', '達勝資本創辦人暨董事長', ''],
+      img: './images/lecture/A/1A/ggk.png',
+    },
+    {
       name: '魏惠珍',
       exps: ['中華電信副總經理', '', ''],
       img: './images/lecture/A/1A/whz.jpg',
+    },
+    {
+      name: '錢大衛',
+      exps: ['台灣線上影視產業協會理事長', '', ''],
+      img: './images/lecture/A/1A/qdw.png',
     },
     {
       name: '陳炳宏',
@@ -46,11 +52,6 @@ const lecture_2A = {
       img: './images/lecture/A/2A/wtl.png',
     },
     {
-      name: '唐鳳',
-      exps: ['行政院政務委員', '', ''],
-      img: './images/lecture/A/2A/tf.jpg',
-    },
-    {
       name: '詹怡宜',
       exps: ['TVBS 聞部副總經理', '', ''],
       img: './images/lecture/A/2A/zyl.jpg',
@@ -59,6 +60,11 @@ const lecture_2A = {
       name: '陳立人',
       exps: ['Line 董事總經理', '', ''],
       img: './images/lecture/A/2A/clr.jpg',
+    },
+    {
+      name: '唐鳳',
+      exps: ['行政院政務委員', '', ''],
+      img: './images/lecture/A/2A/tf.jpg',
     },
     {
       name: '胡元輝',
@@ -108,6 +114,11 @@ const lecture_4A = {
       img: './images/lecture/A/4A/lly.png',
     },
     {
+      name: '陳幼臻',
+      exps: ['Google 台灣公共政策資深協理', '', ''],
+      img: './images/lecture/A/4A/cyz.png',
+    },
+    {
       name: '陳奕儒',
       exps: ['Facebook 台灣公共事務部協理', '', ''],
       img: './images/lecture/A/4A/',
@@ -139,6 +150,11 @@ const lecture_1B = {
       img: './images/lecture/B/1B/wyc.jpg',
     },
     {
+      name: '莊豐嘉',
+      exps: ['華視總經理', '', ''],
+      img: './images/lecture/B/1B/zfj.jpg',
+    },
+    {
       name: '余佳璋',
       exps: [
         '台灣新聞記者協會顧問',
@@ -146,11 +162,6 @@ const lecture_1B = {
         '淡江大學大傳系兼任講師',
       ],
       img: './images/lecture/B/1B/yjz.jpg',
-    },
-    {
-      name: '莊豐嘉',
-      exps: ['華視總經理', '', ''],
-      img: './images/lecture/B/1B/zfj.jpg',
     },
     {
       name: '黃哲斌',
@@ -174,9 +185,9 @@ const lecture_2B = {
       img: './images/lecture/B/2B/xhq.jpg',
     },
     {
-      name: '胡光夏',
-      exps: ['世新大學傳播學院院長', '', ''],
-      img: './images/lecture/B/2B/hgx.jpg',
+      name: '吳琬瑜',
+      exps: ['《天下雜誌》共同執行長暨內容長', '', ''],
+      img: './images/lecture/B/2B/wwy.jpg',
     },
     {
       name: '王銘岳',
@@ -184,9 +195,9 @@ const lecture_2B = {
       img: './images/lecture/B/2B/',
     },
     {
-      name: '吳琬瑜',
-      exps: ['《天下雜誌》共同執行長暨內容長', '', ''],
-      img: './images/lecture/B/2B/wwy.jpg',
+      name: '胡光夏',
+      exps: ['世新大學傳播學院院長', '', ''],
+      img: './images/lecture/B/2B/hgx.jpg',
     },
   ],
 };
@@ -200,6 +211,16 @@ const lecture_3B = {
       img: './images/lecture/B/3B/',
     },
     {
+      name: 'Cédric Alviani',
+      exps: ['無國界記者組織東亞辦公處長(RSF)', '', ''],
+      img: './images/lecture/B/3B/',
+    },
+    {
+      name: 'William Yang',
+      exps: ['德國之聲特派記者', '', ''],
+      img: './images/lecture/B/3B/',
+    },
+    {
       name: 'Andrew Ryan',
       exps: ['TW+ 國際影音平台新聞部副主任', '', ''],
       img: './images/lecture/B/3B/',
@@ -207,11 +228,6 @@ const lecture_3B = {
     {
       name: 'Natalie Tso',
       exps: ['Rti 中央廣播電台英語組召集人', '', ''],
-      img: './images/lecture/B/3B/',
-    },
-    {
-      name: 'William Yang',
-      exps: ['德國之聲特派記者', '', ''],
       img: './images/lecture/B/3B/',
     },
   ],
@@ -231,14 +247,14 @@ const lecture_4B = {
       img: './images/lecture/B/4B/lyh.jpg',
     },
     {
-      name: '張潔平',
-      exps: ['Matters 創辦人', '', ''],
-      img: './images/lecture/B/4B/zjp.jpg',
-    },
-    {
       name: '何榮幸',
       exps: ['《報導者》創辦人', '', ''],
       img: './images/lecture/B/4B/hrx.jpg',
+    },
+    {
+      name: '張潔平',
+      exps: ['Matters 創辦人', '', ''],
+      img: './images/lecture/B/4B/zjp.jpg',
     },
     {
       name: '陳順孝',
