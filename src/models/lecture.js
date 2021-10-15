@@ -208,7 +208,7 @@ const lecture_3B = {
     {
       name: 'Adrian Rauchsfleisch',
       exps: ['臺大新聞所副教授', '', ''],
-      img: './images/lecture/B/3B/',
+      img: './images/lecture/B/3B/adrian.png',
     },
     {
       name: 'Cédric Alviani',
@@ -223,12 +223,12 @@ const lecture_3B = {
     {
       name: 'Andrew Ryan',
       exps: ['TW+ 國際影音平台新聞部副主任', '', ''],
-      img: './images/lecture/B/3B/',
+      img: './images/lecture/B/3B/andrew.jpg',
     },
     {
       name: 'Natalie Tso',
       exps: ['Rti 中央廣播電台英語組召集人', '', ''],
-      img: './images/lecture/B/3B/',
+      img: './images/lecture/B/3B/natalie.jpg',
     },
   ],
 };
