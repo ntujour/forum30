@@ -35,3 +35,12 @@ table p {
   font-weight: bold;
   color: #145c8d;
 }
+
+@media screen and (max-width: 425px) {
+  table tbody tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table tbody tr.bg-color {
+    background-color: rgb(221, 237, 252);
+  }
+}

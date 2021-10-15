@@ -24,14 +24,6 @@ section {
   margin-bottom: 72px;
 }
 
-p {
-  text-align: justify;
-  margin: 0 auto;
-  letter-spacing: 1.25px;
-  line-height: 1.75;
-  font-size: 18px;
-}
-
 .signup-reminder {
   color: navy;
   text-decoration: underline;
@@ -43,6 +35,59 @@ p {
 
 .speakers {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: auto;
+    margin: 36px 24px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 36px;
+  }
+
+  section {
+    margin-bottom: 36px;
+  }
+
+  .signup-reminder {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.75;
+  }
+
+  .lecture-intro {
+    margin-bottom: 24px;
+  }
+
+  .speakers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
 }

@@ -8,7 +8,7 @@ import {
 } from './style';
 
 const Intro = () => (
-  <div>
+  <>
     <Paragraph>
       解嚴之後不久，台大新聞所於 1991 年成立，至今已經三十年 !
       三十年來，我們見證
@@ -56,9 +56,13 @@ const Intro = () => (
       <InfoItem>
         <InfoTitle>贊助單位</InfoTitle>
         <InfoContent>
-          STBA 衛星廣播電視公會、中嘉數位股份有限公司
+          STBA 衛星廣播電視公會
           <br />
-          台灣數位光訊科技集團、中華電信公司、Google
+          中嘉數位股份有限公司
+          <br />
+          台灣數位光訊科技集團
+          <br />
+          中華電信公司、Google
         </InfoContent>
       </InfoItem>
     </Info>
@@ -66,7 +70,7 @@ const Intro = () => (
       台大新聞所所長 <img src='./images/hzl-sign.png' alt='' width='150' />{' '}
       暨全體教師 敬邀
     </Signature>
-  </div>
+  </>
 );
 
 export default Intro;

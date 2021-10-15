@@ -53,7 +53,7 @@ const lecture_2A = {
     },
     {
       name: '詹怡宜',
-      exps: ['TVBS 聞部副總經理', '', ''],
+      exps: ['TVBS 新聞部副總經理', '', ''],
       img: './images/lecture/A/2A/zyl.jpg',
     },
     {
@@ -84,7 +84,7 @@ const lecture_3A = {
     },
     {
       name: '史書華',
-      exps: ['《天下雜誌》數據新聞主編', '', ''],
+      exps: ['《天下雜誌》主編', '', ''],
       img: './images/lecture/A/3A/ssh.jpg',
     },
     {
@@ -191,8 +191,8 @@ const lecture_2B = {
     },
     {
       name: '王銘岳',
-      exps: ['《關鍵評論網》行銷長', '', ''],
-      img: './images/lecture/B/2B/',
+      exps: ['《關鍵評論網》媒體集團行銷長', '達思智能科技總經理', ''],
+      img: './images/lecture/B/2B/wmy.jpg',
     },
     {
       name: '胡光夏',

@@ -2,9 +2,6 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import Speaker from './components/Speaker';
 import Agenda from './components/Agenda';
-// import Footer from './components/Footer/Footer';
-
-// import moduleName from './style';
 
 import { lecture } from './models/lecture';
 
@@ -24,9 +21,6 @@ const App = () => {
             預計10/25開放報名，報名人數因疫情將分A、B場報名，各有人數限制，請密切關注本站以獲得最新報名資訊。
           </p>
         </section>
-        {/* <section>
-          <h2>最新消息</h2>
-        </section> */}
         <section>
           <h2>研討議程</h2>
           <Agenda></Agenda>
