@@ -18,6 +18,8 @@ const SpeakerImage = styled.img`
   display: inline-block;
 `;
 
+
+
 const SpeakerName = styled.div`
   font-size: 18px;
   text-align: center;
