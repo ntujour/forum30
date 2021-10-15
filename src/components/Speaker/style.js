@@ -5,6 +5,11 @@ const SpeakerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-content: center;
+
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 `;
 
 const SpeakerImage = styled.img`
@@ -15,6 +20,11 @@ const SpeakerImage = styled.img`
   object-position: center center;
   margin: 0 auto;
   display: inline-block;
+
+  @media screen and (max-width: 425px) {
+    width: 180px;
+    height: 180px;
+  }
 `;
 
 const SpeakerName = styled.div`
