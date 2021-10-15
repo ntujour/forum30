@@ -5,12 +5,11 @@ const SpeakerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-right: 24px;
 `;
 
 const SpeakerImage = styled.img`
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center center;
