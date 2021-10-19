@@ -56,6 +56,8 @@ const Intro = () => (
       <InfoItem>
         <InfoTitle>贊助單位</InfoTitle>
         <InfoContent>
+          台大社科院
+          <br />
           STBA 衛星廣播電視公會
           <br />
           中嘉數位股份有限公司
