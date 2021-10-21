@@ -1,24 +1,25 @@
 import {
   Paragraph,
-  Info,
-  InfoItem,
-  InfoTitle,
-  InfoContent,
+  Infos,
+  Item,
+  Title,
+  Content,
+  Logo,
   Signature,
 } from './style';
 
 const Intro = () => (
   <>
     <Paragraph>
-      解嚴之後不久，台大新聞所於 1991 年成立，至今已經三十年 !
+      解嚴之後不久，臺大新聞所於 1991 年成立，至今已經三十年 !
       三十年來，我們見證
-      台灣民主化過程中，新聞業從威權侍從走向專業自主；也見證網路興起後，傳統媒體
+      臺灣民主化過程中，新聞業從威權侍從走向專業自主；也見證網路興起後，傳統媒體
       由盛轉衰並苦思出路，數位平台上眾聲喧嘩卻也百病叢生。
     </Paragraph>
     <Paragraph>
       我們認為，這是最壞的時代，也是最好的時代。新聞作為民主社會的重要機制，監督
       權力者、服務公民社會，有其本質上的必要性。新聞所三十週年研討會以「重建新聞
-      鞏固民主」為主題，思索台灣新聞業的危機與轉機，會議議程分為四大方向，從新聞
+      鞏固民主」為主題，思索臺灣新聞業的危機與轉機，會議議程分為四大方向，從新聞
       匯流現況、新聞危機談到新聞實踐的轉機與創新重建。
     </Paragraph>
     <Paragraph>
@@ -34,43 +35,44 @@ const Intro = () => (
       希望健康的新聞業的存在，提供守望社會的正確資訊與認知觀點，協助台
       灣民主道路更加穩固與健全。
     </Paragraph>
-    <Info>
-      <InfoItem>
-        <InfoTitle>日期與時間</InfoTitle>
-        <InfoContent>2021 年 11 月 12 日 ( 週五 )</InfoContent>
-      </InfoItem>
-      <InfoItem>
-        <InfoTitle>地點</InfoTitle>
-        <InfoContent>
+    <Infos>
+      <Item>
+        <Title>日期與時間</Title>
+        <Content>2021 年 11 月 12 日 ( 週五 )</Content>
+      </Item>
+      <Item>
+        <Title>地點</Title>
+        <Content>
           臺大法律學院霖澤館（A 場：國際會議廳、B 場：多媒體教室）
-        </InfoContent>
-      </InfoItem>
-      <InfoItem>
-        <InfoTitle>主辦單位</InfoTitle>
-        <InfoContent>台大新聞研究所</InfoContent>
-      </InfoItem>
-      <InfoItem>
-        <InfoTitle>協辦單位</InfoTitle>
-        <InfoContent>中華傳播學會、優質新聞發展協會</InfoContent>
-      </InfoItem>
-      <InfoItem>
-        <InfoTitle>贊助單位</InfoTitle>
-        <InfoContent>
-          台大社科院
+        </Content>
+      </Item>
+      <Item>
+        <Title>主辦單位</Title>
+        <Content>臺大新聞研究所</Content>
+      </Item>
+      <Item>
+        <Title>協辦單位</Title>
+        <Content>中華傳播學會、優質新聞發展協會</Content>
+      </Item>
+      <Item>
+        <Title>贊助單位</Title>
+        <Content>
+          臺大社科院
           <br />
           STBA 衛星廣播電視公會
           <br />
           中嘉數位股份有限公司
           <br />
-          台灣數位光訊科技集團
+          臺灣數位光訊科技集團
           <br />
           中華電信公司、Google
-        </InfoContent>
-      </InfoItem>
-    </Info>
+        </Content>
+      </Item>
+    </Infos>
     <Signature>
-      台大新聞所所長 <img src='./images/hzl-sign.png' alt='' width='150' />{' '}
+      臺大新聞所所長 <img src='./images/hzl-sign.png' alt='' width='150' />{' '}
       暨全體教師 敬邀
+      <Logo />
     </Signature>
   </>
 );
