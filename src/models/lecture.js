@@ -32,12 +32,12 @@ const lecture_1A = {
     },
     {
       name: '錢大衛',
-      exps: ['台灣線上影視產業協會理事長', '', ''],
+      exps: ['臺灣線上影視產業協會理事長', '', ''],
       img: './images/lecture/A/1A/qdw.png',
     },
     {
       name: '陳炳宏',
-      exps: ['台師大大傳所優聘教授', '', ''],
+      exps: ['臺師大大傳所優聘教授', '', ''],
       img: './images/lecture/A/1A/cbh.png',
     },
   ],
@@ -68,7 +68,7 @@ const lecture_2A = {
     },
     {
       name: '胡元輝',
-      exps: ['中正大學傳播學系教授', '台灣事實查核教育基金會董事長', ''],
+      exps: ['中正大學傳播學系教授', '臺灣事實查核教育基金會董事長', ''],
       img: './images/lecture/A/2A/hyh.jpg',
     },
   ],
@@ -100,7 +100,7 @@ const lecture_3A = {
     {
       name: '李怡志',
       exps: ['政大傳院助理教授級專技人員', '', ''],
-      img: './images/lecture/A/3A/',
+      img: './images/lecture/A/3A/lyz.png',
     },
   ],
 };
@@ -115,12 +115,12 @@ const lecture_4A = {
     },
     {
       name: '陳幼臻',
-      exps: ['Google 台灣公共政策資深協理', '', ''],
+      exps: ['Google 臺灣公共政策資深協理', '', ''],
       img: './images/lecture/A/4A/cyz.png',
     },
     {
       name: '陳奕儒',
-      exps: ['Facebook 台灣公共事務部協理', '', ''],
+      exps: ['Facebook 臺灣公共事務部協理', '', ''],
       img: './images/lecture/A/4A/',
     },
     {
@@ -131,7 +131,7 @@ const lecture_4A = {
     {
       name: '劉昌德',
       exps: ['政大新聞系教授', '', ''],
-      img: './images/lecture/A/4A/',
+      img: './images/lecture/A/4A/lcd.jpg',
     },
   ],
 };
@@ -157,7 +157,7 @@ const lecture_1B = {
     {
       name: '余佳璋',
       exps: [
-        '台灣新聞記者協會顧問',
+        '臺灣新聞記者協會顧問',
         '建業法律事務所資深顧問',
         '淡江大學大傳系兼任講師',
       ],

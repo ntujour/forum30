@@ -15,11 +15,11 @@ export const Paragraph = styled.p`
   }
 `;
 
-export const Info = styled.div`
+export const Infos = styled.div`
   margin: 36px auto;
 `;
 
-export const InfoItem = styled.div`
+export const Item = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -34,7 +34,7 @@ export const InfoItem = styled.div`
   }
 `;
 
-export const InfoTitle = styled.div`
+export const Title = styled.div`
   font-size: 18px;
   font-weight: bold;
   color: #145c8d;
@@ -47,12 +47,26 @@ export const InfoTitle = styled.div`
   }
 `;
 
-export const InfoContent = styled.div`
+export const Content = styled.div`
   font-size: 16px;
   text-align: left;
 `;
 
-export const Signature = styled.p`
+export const Logo = styled.div`
+  background-image: url('./images/logo.png');
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 8px 8px white inset;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(0, -100%);
+`;
+
+export const Signature = styled.div`
   max-width: 70%;
   margin: 0 auto;
   letter-spacing: 1.25px;
@@ -60,6 +74,7 @@ export const Signature = styled.p`
   margin-bottom: 24px;
   font-size: 18px;
   text-align: right;
+  position: relative;
 
   & img {
     vertical-align: middle;
