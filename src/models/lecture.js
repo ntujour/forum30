@@ -213,12 +213,12 @@ const lecture_3B = {
     {
       name: 'Cédric Alviani',
       exps: ['無國界記者組織東亞辦公處長(RSF)', '', ''],
-      img: './images/lecture/B/3B/',
+      img: './images/lecture/B/3B/cedric.jpeg',
     },
     {
       name: 'William Yang',
       exps: ['德國之聲特派記者', '', ''],
-      img: './images/lecture/B/3B/',
+      img: './images/lecture/B/3B/william.jpg',
     },
     {
       name: 'Andrew Ryan',
