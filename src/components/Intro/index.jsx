@@ -65,7 +65,8 @@ const Intro = () => (
           <br />
           臺灣數位光訊科技集團
           <br />
-          中華電信公司、Google
+          中華電信公司 <br />
+          Google
         </Content>
       </Item>
     </Infos>

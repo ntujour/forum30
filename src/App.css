@@ -24,9 +24,37 @@ section {
   margin-bottom: 72px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .signup-reminder {
-  color: navy;
-  text-decoration: underline;
+  /* color: navy;
+  text-decoration: underline; */
+
+  width: 80%;
+  margin: 0 auto;
+  background-color: pink;
+  font-size: 18px;
+  min-height: 50px;
+  border: 3px solid #145c8d;
+  border-radius: 8px;
+  padding: 20px 10px;
+  line-height: 1.75;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+
+.signup-reminder p {
+  padding: 0;
+  margin: 0;
+}
+
+.signup-reminder:hover {
+  background-color: hotpink;
 }
 
 .lecture-intro {
@@ -67,6 +95,7 @@ section {
   }
 
   .signup-reminder {
+    width: 90%;
     font-size: 16px;
     text-align: justify;
     line-height: 1.75;

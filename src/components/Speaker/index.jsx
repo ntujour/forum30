@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   SpeakerWrapper,
   SpeakerImage,
@@ -11,9 +13,13 @@ const Speaker = ({ name, exps, img }) => (
     <SpeakerImage src={img} alt='' />
     <SpeakerName>{name}</SpeakerName>
     <SpeakerExps>
-      {exps.map((exp) => (
-        <ExpItems key={exp}>{exp}</ExpItems>
-      ))}
+      {exps
+        .filter((exp) => exp !== '')
+        .map((exp) => (
+          <React.Fragment key={exp}>
+            <ExpItems>{exp}</ExpItems>
+          </React.Fragment>
+        ))}
     </SpeakerExps>
   </SpeakerWrapper>
 );
