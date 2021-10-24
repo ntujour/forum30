@@ -8,21 +8,21 @@ const Agenda = () => {
           <th>
             <p>時間</p>
           </th>
-          <th colSpan='2'>
+          <th colSpan='3'>
             <p>場次、主題及參與者</p>
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>8:30-9:00 開幕</p>
             <p className='text-center'>貴賓致詞</p>
             <p className='text-center'>邀請主管機關、媒體公協會、新聞獎機構</p>
           </td>
         </tr>
         <tr className='bg-color'>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>9:00-10:20</p>
             <p className='text-center'>新聞匯流</p>
           </td>
@@ -53,12 +53,12 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>10:20-10:40 休息</p>
           </td>
         </tr>
         <tr className='bg-color'>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>10:40-12:00</p>
             <p className='text-center'>新聞危機</p>
           </td>
@@ -88,12 +88,12 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>12:00-1:00 午餐</p>
           </td>
         </tr>
         <tr className='bg-color'>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>1:00-2:20</p>
             <p className='text-center'>新聞實踐</p>
           </td>
@@ -119,13 +119,13 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>2:20-2:40 休息</p>
           </td>
         </tr>
         <tr className='bg-color'>
-          <td colSpan='2'>
-            <p className='text-center'>2:40-4:10</p>
+          <td colSpan='3'>
+            <p className='text-center'>2:40-4:00</p>
             <p className='text-center'>新聞重建</p>
           </td>
         </tr>
@@ -150,13 +150,13 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
-            <p className='text-center'>4:10-5:00</p>
+          <td colSpan='3'>
+            <p className='text-center'>4:00-5:00</p>
             <p className='text-center'>閉幕座談</p>
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p>主持人：洪貞玲教授 與談人：新聞所教師</p>
             <p>各場次主持人總結報告</p>
             <p>新聞實踐、產業與政策</p>
@@ -172,14 +172,14 @@ const Agenda = () => {
           <th>
             <p>時間</p>
           </th>
-          <th colSpan='2'>
+          <th colSpan='3'>
             <p>場次、主題及參與者</p>
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>8:30-9:00 開幕</p>
             <p className='text-center'>貴賓致詞</p>
             <p className='text-center'>邀請主管機關、媒體公協會、新聞獎機構</p>
@@ -215,7 +215,7 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>10:20-10:40 休息</p>
           </td>
         </tr>
@@ -248,7 +248,7 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>12:00-1:00 午餐</p>
           </td>
         </tr>
@@ -277,13 +277,13 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p className='text-center'>2:20-2:40 休息</p>
           </td>
         </tr>
         <tr>
           <td>
-            <p>2:40-4:10 </p>
+            <p>2:40-4:00 </p>
             <p>新聞重建</p>
           </td>
           <td>
@@ -306,11 +306,16 @@ const Agenda = () => {
           </td>
         </tr>
         <tr>
+          <td colSpan='3'>
+            <p className='text-center'>4:00-4:10 休息</p>
+          </td>
+        </tr>
+        <tr>
           <td>
             <p>4:10-5:00 </p>
             <p>閉幕座談</p>
           </td>
-          <td colSpan='2'>
+          <td colSpan='3'>
             <p>主持人：洪貞玲教授 與談人：新聞所教師</p>
             <p>各場次主持人總結報告</p>
             <p>新聞實踐、產業與政策</p>

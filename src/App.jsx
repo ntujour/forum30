@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Header from './components/Header';
 import Intro from './components/Intro';
 import Speaker from './components/Speaker';
@@ -17,9 +19,19 @@ const App = () => {
         </section>
         <section>
           <h2>報名資訊與連結</h2>
-          <p className='signup-reminder'>
-            預計10/25開放報名，報名人數因疫情將分A、B場報名，各有人數限制，請密切關注本站以獲得最新報名資訊。
-          </p>
+          <div className='signup-reminder'>
+            <a
+              href='https://docs.google.com/forms/d/e/1FAIpQLSe03N4NdrUs2sjaGEyQs-_s2t-psNHBnYaIMuAPoz8qrZFR_A/viewform'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <p>
+                因議程與疫情場所人數限制，A、B場分別限制80人與60人報名，報名從速，以免向隅。
+              </p>
+              <p>報名後將於11/3個別寄發通知第一波報名結果。</p>
+              <p>超過限制人數將由大會協助安排至另一場次或候補。</p>
+            </a>
+          </div>
         </section>
         <section>
           <h2>研討議程</h2>
@@ -32,7 +44,9 @@ const App = () => {
               <h3>{title}</h3>
               <div className='speakers'>
                 {speakers.map(({ name, exps, img }) => (
-                  <Speaker name={name} exps={exps} img={img} key={name} />
+                  <React.Fragment key={name}>
+                    <Speaker name={name} exps={exps} img={img} />
+                  </React.Fragment>
                 ))}
               </div>
             </div>
