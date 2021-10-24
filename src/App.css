@@ -24,47 +24,53 @@ section {
   margin-bottom: 72px;
 }
 
+section.no-bottom-margin {
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
   color: #000;
 }
 
-.signup-reminder {
+.signup-button {
   /* color: navy;
   text-decoration: underline; */
 
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   background-color: pink;
-  font-size: 16px;
+  font-size: 20px;
   min-height: 50px;
   border: 3px solid #145c8d;
   border-radius: 8px;
-  padding: 20px 10px;
+  padding: 5px;
   line-height: 1.75;
   cursor: pointer;
   letter-spacing: 1px;
   transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: sticky;
+  top: 10px;
 }
 
-.signup-reminder p {
+.signup-notice {
   padding: 0;
   margin: 0;
+  line-height: 2;
+  font-size: 16px;
 }
 
-.signup-reminder:hover {
-  background-color: hotpink;
-}
-
-p.signup-notice {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.signup-notice img {
-  vertical-align:top;
+.signup-button img {
+  vertical-align: top;
   margin-right: 5px;
+}
+
+.signup-button:hover {
+  background-color: hotpink;
 }
 
 .lecture-intro {
@@ -104,7 +110,7 @@ p.signup-notice {
     margin-bottom: 36px;
   }
 
-  .signup-reminder {
+  .signup-button {
     width: 90%;
     font-size: 16px;
     text-align: justify;

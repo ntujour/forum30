@@ -19,26 +19,28 @@ const App = () => {
         <section>
           <Intro></Intro>
         </section>
-        <section>
+        <section className="no-bottom-margin">
           <h2>報名資訊與連結</h2>
-          <div className='signup-reminder'>
-            <a
-              href='https://docs.google.com/forms/d/e/1FAIpQLSe03N4NdrUs2sjaGEyQs-_s2t-psNHBnYaIMuAPoz8qrZFR_A/viewform'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <p className='signup-notice'>
-                <img src={clickIcon} alt='' />
-                點此報名
-              </p>
-              <p>
-                因議程與疫情場所人數限制，A、B場分別限制80人與60人報名，報名從速，以免向隅。
-              </p>
-              <p>報名後將於11/3個別寄發通知第一波報名結果。</p>
-              <p>超過限制人數將由大會協助安排至另一場次或候補。</p>
-            </a>
-          </div>
+          <p className='signup-notice'>
+            因議程與疫情場所人數限制，A、B場分別限制80人與60人報名，報名從速，以免向隅。
+          </p>
+          <p className='signup-notice'>
+            報名後將於11/3個別寄發通知第一波報名結果。
+          </p>
+          <p className='signup-notice'>
+            超過限制人數將由大會協助安排至另一場次或候補。
+          </p>
         </section>
+        <div className='signup-button'>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSe03N4NdrUs2sjaGEyQs-_s2t-psNHBnYaIMuAPoz8qrZFR_A/viewform'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img src={clickIcon} alt='' />
+            點此報名
+          </a>
+        </div>
         <section>
           <h2>研討議程</h2>
           <Agenda></Agenda>
