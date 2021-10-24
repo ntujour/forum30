@@ -7,6 +7,8 @@ import Agenda from './components/Agenda';
 
 import { lecture } from './models/lecture';
 
+import clickIcon from './images/MdiCursorDefaultClick.svg';
+
 import './App.css';
 
 const App = () => {
@@ -25,6 +27,10 @@ const App = () => {
               target='_blank'
               rel='noreferrer'
             >
+              <p className='signup-notice'>
+                <img src={clickIcon} alt='' />
+                點此報名
+              </p>
               <p>
                 因議程與疫情場所人數限制，A、B場分別限制80人與60人報名，報名從速，以免向隅。
               </p>
