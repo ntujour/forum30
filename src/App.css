@@ -36,7 +36,7 @@ a {
   width: 80%;
   margin: 0 auto;
   background-color: pink;
-  font-size: 18px;
+  font-size: 16px;
   min-height: 50px;
   border: 3px solid #145c8d;
   border-radius: 8px;
@@ -47,7 +47,6 @@ a {
   transition: all 0.5s ease;
 }
 
-
 .signup-reminder p {
   padding: 0;
   margin: 0;
@@ -55,6 +54,17 @@ a {
 
 .signup-reminder:hover {
   background-color: hotpink;
+}
+
+p.signup-notice {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.signup-notice img {
+  vertical-align:top;
+  margin-right: 5px;
 }
 
 .lecture-intro {
