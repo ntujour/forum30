@@ -6,6 +6,29 @@
 },
 */
 
+const greeting = [
+  {
+    name: '李永得',
+    exps: ['文化部長', '', ''],
+    img: '',
+  },
+  {
+    name: '蘇正平',
+    exps: ['卓越新聞獎基金會董事長', '', ''],
+    img: '',
+  },
+  {
+    name: '管中閔',
+    exps: ['臺大校長', '', ''],
+    img: '',
+  },
+  {
+    name: '蘇宏達',
+    exps: ['臺大社科院院長', '', ''],
+    img: '',
+  },
+];
+
 const lecture_1A = {
   title: '1A 電視還是強勢媒體嗎? 匯流平台下的內容多元與產業政策',
   speakers: [
@@ -44,7 +67,7 @@ const lecture_1A = {
 };
 
 const lecture_2A = {
-  title: '2A 誰還在乎新聞真實？--探討假訊息與事實查證',
+  title: '2A 誰還在乎新聞真實?台灣公民社會因應假訊息的努力以及未來展望',
   speakers: [
     {
       name: '王泰俐',
