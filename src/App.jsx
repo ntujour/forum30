@@ -19,10 +19,10 @@ const App = () => {
         <section>
           <Intro></Intro>
         </section>
-        <section className="no-bottom-margin">
+        <section className='no-bottom-margin'>
           <h2>報名資訊與連結</h2>
           <p className='signup-notice'>
-            因議程與疫情場所人數限制，A、B場分別限制80人與60人報名，報名從速，以免向隅。
+            因議程與疫情場所人數限制，A、B場分別限制100人與70人報名，報名從速，以免向隅。
           </p>
           <p className='signup-notice'>
             報名後將於11/3個別寄發通知第一波報名結果。
