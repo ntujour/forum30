@@ -63,10 +63,10 @@ const Agenda = () => {
             <p className='text-center'>新聞危機</p>
           </td>
         </tr>
-        <tr className='bg-color' valign='top'>
+        <tr className='bg-color' valign='t  op'>
           <td>
             <p className='lecture-title'>
-              2A 誰還在乎新聞真實？探討假訊息與事實查證
+              2A 誰還在乎新聞真實?台灣公民社會因應假訊息的努力以及未來展望
             </p>
             <p>主持人：王泰俐教授</p>
             <p>與談人：</p>
@@ -226,7 +226,7 @@ const Agenda = () => {
           </td>
           <td>
             <p className='lecture-title'>
-              2A 誰還在乎新聞真實？探討假訊息與事實查證
+              2A 誰還在乎新聞真實?台灣公民社會因應假訊息的努力以及未來展望
             </p>
             <p>主持人：王泰俐教授</p>
             <p>與談人：</p>
