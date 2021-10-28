@@ -34,7 +34,7 @@ const lecture_1A = {
   speakers: [
     {
       name: '洪貞玲',
-      exps: ['臺大新聞研究所教授兼所長', '前國家通訊傳播委員會委員', ''],
+      exps: ['臺大新聞研究所教授兼所長', '', ''],
       img: './images/lecture/A/1A/hcl.png',
     },
 
@@ -133,7 +133,7 @@ const lecture_4A = {
   speakers: [
     {
       name: '林麗雲',
-      exps: ['臺大新聞所教授', '', ''],
+      exps: ['臺大新聞所教授', '國家通訊傳播委員會委員', ''],
       img: './images/lecture/A/4A/lly.png',
     },
     {
