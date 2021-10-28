@@ -133,7 +133,7 @@ const lecture_4A = {
   speakers: [
     {
       name: '林麗雲',
-      exps: ['國家通訊傳播委員會委員', '', ''],
+      exps: ['臺大新聞所教授', '國家通訊傳播委員會委員', ''],
       img: './images/lecture/A/4A/lly.png',
     },
     {
