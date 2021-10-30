@@ -144,7 +144,7 @@ const lecture_4A = {
     {
       name: '陳奕儒',
       exps: ['Facebook 臺灣公共事務部協理', '', ''],
-      img: './images/lecture/A/4A/',
+      img: './images/lecture/A/4A/cyr.jpg',
     },
     {
       name: '魏杏芳',
