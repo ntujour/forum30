@@ -16,7 +16,12 @@ const Agenda = () => {
       <tbody>
         <tr>
           <td colSpan='3'>
-            <p className='text-center'>8:30-9:00 開幕</p>
+            <p className='text-center'>08:00-08:30 報到</p>
+          </td>
+        </tr>
+        <tr>
+          <td colSpan='3'>
+            <p className='text-center'>8:30-9:00 準時開幕</p>
             <p className='text-center'>貴賓致詞</p>
             <p className='text-center'>邀請主管機關、媒體公協會、新聞獎機構</p>
           </td>
@@ -180,7 +185,12 @@ const Agenda = () => {
       <tbody>
         <tr>
           <td colSpan='3'>
-            <p className='text-center'>8:30-9:00 開幕</p>
+            <p className='text-center'>08:00-08:30 報到</p>
+          </td>
+        </tr>
+        <tr>
+          <td colSpan='3'>
+            <p className='text-center'>8:30-9:00 準時開幕</p>
             <p className='text-center'>貴賓致詞</p>
             <p className='text-center'>邀請主管機關、媒體公協會、新聞獎機構</p>
           </td>
