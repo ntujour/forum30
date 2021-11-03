@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/forum30/static/css/main.c3580d82.chunk.css",
-    "main.js": "/forum30/static/js/main.13937ab9.chunk.js",
-    "main.js.map": "/forum30/static/js/main.13937ab9.chunk.js.map",
+    "main.css": "/forum30/static/css/main.2b71c43b.chunk.css",
+    "main.js": "/forum30/static/js/main.28d4adb2.chunk.js",
+    "main.js.map": "/forum30/static/js/main.28d4adb2.chunk.js.map",
     "runtime-main.js": "/forum30/static/js/runtime-main.1d435f3d.js",
     "runtime-main.js.map": "/forum30/static/js/runtime-main.1d435f3d.js.map",
     "static/js/2.d754cb23.chunk.js": "/forum30/static/js/2.d754cb23.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.7454ccff.chunk.js": "/forum30/static/js/3.7454ccff.chunk.js",
     "static/js/3.7454ccff.chunk.js.map": "/forum30/static/js/3.7454ccff.chunk.js.map",
     "index.html": "/forum30/index.html",
-    "static/css/main.c3580d82.chunk.css.map": "/forum30/static/css/main.c3580d82.chunk.css.map",
+    "static/css/main.2b71c43b.chunk.css.map": "/forum30/static/css/main.2b71c43b.chunk.css.map",
     "static/js/2.d754cb23.chunk.js.LICENSE.txt": "/forum30/static/js/2.d754cb23.chunk.js.LICENSE.txt",
     "static/media/MdiCursorDefaultClick.585915c3.svg": "/forum30/static/media/MdiCursorDefaultClick.585915c3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1d435f3d.js",
     "static/js/2.d754cb23.chunk.js",
-    "static/css/main.c3580d82.chunk.css",
-    "static/js/main.13937ab9.chunk.js"
+    "static/css/main.2b71c43b.chunk.css",
+    "static/js/main.28d4adb2.chunk.js"
   ]
 }
