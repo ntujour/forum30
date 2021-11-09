@@ -235,7 +235,7 @@ const lecture_3B = {
     },
     {
       name: 'Cédric Alviani',
-      exps: ['無國界記者組織東亞辦公處長(RSF)', '', ''],
+      exps: ['無國界記者東亞辦事處執行長', '', ''],
       img: './images/lecture/B/3B/cedric.jpeg',
     },
     {
