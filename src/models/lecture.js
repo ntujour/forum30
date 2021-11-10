@@ -229,7 +229,7 @@ const lecture_3B = {
   title: '3B 國際新聞與在地觀點',
   speakers: [
     {
-      name: 'Adrian Rauchsfleisch',
+      name: 'Adrian Rauchfleisch',
       exps: ['臺大新聞所副教授', '', ''],
       img: './images/lecture/B/3B/adrian.png',
     },
